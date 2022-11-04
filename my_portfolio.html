@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/b6d244dc1a.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width= device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Ayushi Agrawal Portfolio Website" />
+        <title>My Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="heading">AYUSHI AGRAWAL</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Tranings and Certifications</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <h1>Hi, I am<br /> <span>AYUSHI AGRAWAL</span></h1>
+                <p>This is my official Portfolio Website to showcase all my details, projects and work experiences.</p>
+                <div class="social-icons header-icon">
+                    <a href="https://www.linkedin.com/in/ayushi-agrawal-209561226"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ayushiagrawal083"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=9snok5tvb2gq&utm_content=5dhesnt"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about--> 
+    <div id="about">
+    <div class="container">
+        <div >
+            <h1 class="sub-title">About Me</h1><br />
+            <p> I am Currently in my Final year of Btech (Computer Science and Engineering). Over the last 3 years of my Btech journey I got a lot of exposure in Learning not just technical skills but also my Communication skills and Soft Skills.</p>
+            <br />
+                <p>I posses great leadership qualities as I am a Student Coordinator in the Training and Placement Cell of my college and due to this I got the chance to get involved in various activities such as conducting placement drives, informing students about various job and internship opportunities etc. I was also actively involved in various activities during our College fest (called Kshitij) such as dancing and singing etc. </p>
+                <br/>
+               <p> I am familiar and confident with Core Java, Mysql, Python, Html, Css, Javascript, Machine Learning, Bootstrap, C and C++. I am eager to learn, proactive and a team player as well. Most importantly I am great at connecting with people.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span>
+                                <ul>
+                                    <li><strong>Software Development : </strong>C, C++, Java, Python </li>
+                                    <li><strong>Web Development : </strong>HTML, CSS, Javascript, Bootstrap </li>
+                                    <li><strong>Database : </strong>MySQL</li>
+                                </ul>
+                            </li>
+                           
+                          <li><span>Soft Skills:</span>
+                            <ul>
+                                <li>Leadership Qualities</li>
+                                <li>Good Communication Skills</li>
+                                <li>Fast Learner</li>
+                            </ul>
+                        </li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience" >
+                        <ul>
+                            <li><span>Intern - Web Development and Designing | October 2022</span><br /><strong> The Sparks Foundation</strong>
+                            <ul>
+                                <li>Worked on concepts of HTML, CSS and Javascript.</li>
+                                <li>Worked with various project.</li>
+                            </ul>
+                        </li>
+                        <li><span>Intern - Machine Learning | June 2022 - July 2022</span><br /><strong> Beyond Key Systems Pvt. Ltd., Indore</strong>
+                            <ul>
+                                <li>Learned Basics of Python Language</li>
+                                <li>Worked with python libraries(Pandas, Numpy and Matplotlib).</li>
+                                <li>Machine Learning with SkLearn and openCV</li>
+                            </ul>
+                        </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Bachelor of Technology (Computer Science engineering) | 2019 - present | CGPA : 8.71</span><br />Rajiv Gandhi Technical University, Bhopal, M.P</li>
+                            <li><span>Class XII | 2018 - 2019 | CGPA : 7.8</span><br />Ratlam Public Sr. Sec. CBSE School, Ratlam, M.P </li>
+                            <li><span>Class X | 2016-2017 | CGPA : 10</span><br />Ratlam Public Sr. Sec. CBSE School, Ratlam, M.P</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+    </div>
+    </div>
+    <!--services--><br />
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Trainings and Certifications</h1><br />
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <H2>Oracle Certified Java Developer</H2>
+                    <p>Learned basic to advanced concepts of java, how to connect java with MySQL using JDBC, JSP application design using Tomcat server and server API devlopment with projects development.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <H2>HTML and CSS Certification</H2>
+                    <p>Leraned core html tags, text formatting and decoration, html lists, image insertion, link creation, anchor tags, form tags and atributes etc. Also learned css classes, spans and divisions, margins, padding, css borders and backgrounds etc.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-certificate"></i>
+                    <H2>The Ultimate MySQL Crash Course</H2>
+                    <p>Learned basic concepts of MySQL, how to create databases and how to manage them, constraints and how they work, joins.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1><br />
+        <div class="work-list">
+            <div class="work">
+                <img src="images/hs.jpg" alt="home services image">
+                <div class="layer">
+                    <h3>Home Services</h3>
+                    <p>With the help of this application you can either book or provide the services such as plumbing, electrician, home repairs,
+                        fitness training, beauty services and many others. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project 1.jpg" alt="google drive image">
+                <div class="layer">
+                    <h3>Google Drive Clone</h3>
+                    <p>This is a simple front-end view of Google- drive which is made using html css and javascript.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            
+            </div>
+            <div class="work">
+                <img src="images/Student-Database-Management-System.jpg" alt="Student-Database-Management-System image">
+                <div class="layer">
+                    <h3>Student Management System</h3>
+                    <p>This application manages all the information regarding students and this information can be stored, updated, deleted or fetched at anytime.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+</div><br />
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>agrawalayushi086@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ayushi-agrawal-209561226"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ayushiagrawal083"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=9snok5tvb2gq&utm_content=5dhesnt"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <a href="images/Ayushi Agrawal Resume (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @2022. Made with <i class="fa-solid fa-heart"></i> by Ayushi Agrawal</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
